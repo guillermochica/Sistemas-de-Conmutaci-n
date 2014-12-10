@@ -1,10 +1,7 @@
 %Calculo teóricos:
 clear all
 prob=[0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1];
-%Para calcular CLP debemos evitar el primer valor de los vectores
-%anteriores, porque CLP no está definido para p=0 (daría infinito)
-prob_CLP=[0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1];
-th_CLP=[0.09 0.19 0.277 0.36 0.43 0.51 0.57 0.64 0.69 0.75];
+
 
 tsim=1000;
 i=1;
